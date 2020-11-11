@@ -4,5 +4,10 @@
 
 class ResourceManager
 {
-    // Twoja implementacja tutaj
+   double get(){
+        return 0;
+    };
+    
+    ~ResourceManager(){
+    };
 };
