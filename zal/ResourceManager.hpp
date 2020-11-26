@@ -14,7 +14,7 @@ class ResourceManager
         dane = new Resource{*rm.dane};
     }
     
-    ResourceManager(const ResourceManager&& rm){  //Konstruktor przenoszący
+    ResourceManager(ResourceManager&& rm){  //Konstruktor przenoszący
         dane = rm.dane;
         rm.dane=nullptr;
     }
@@ -28,7 +28,7 @@ class ResourceManager
         return *this;
     }
     
-    ResourceManager& operator=(const ResourceManager&& rm){  // przenoszący przypisania
+    ResourceManager& operator=(ResourceManager&& rm){  // przenoszący przypisania
         
         if(&rm != this){
             delete dane;
