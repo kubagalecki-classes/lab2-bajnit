@@ -637,4 +637,4 @@ Zasady te pomagają unikać bugów wynikających np. z nieświadomego zawołania
 #### Zadanie na koniec
 Jeżeli nie jest dla Ciebie do końca jasne, kiedy wołany jest który konstruktor lub operator przenoszenia, nie przejmuj się.
 Pobaw się [tym kawałkiem kodu](https://godbolt.org/z/34YxMq) - np. zakomentuj dla zawartej klasy semantykę przenoszenia, stwórz nowe obiekty i zobacz, jakie będą efekty (oraz w jakiej kolejności drukowane będą informacje).
-Być może pomocne okaże się także [to wideo](https://youtu.be/zUQz4LBBz7M) (nie przejmuj się kodem obecnym na ekranie przez pierwszą minutę).
+Być może pomocne okaże się także [to wideo](https://youtu.be/zUQz4LBBz7M) (nie przejmuj się kodem obecnym na ekranie przez pierwszą minutę). 
